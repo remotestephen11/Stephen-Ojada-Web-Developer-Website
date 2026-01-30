@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stephen Ojada | Web Developer</title>
+    <meta
+      name="description"
+      content="Stephen Ojada — Web Developer. Engineering background, now building futuristic, responsive websites with HTML and CSS."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Go to homepage">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">Stephen Ojada</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="resume.html">Resume</a>
+          <a class="nav-cta" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero" aria-label="Hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="kicker">WEB DEVELOPER • HTML / CSS • RESPONSIVE UI</p>
+
+            <h1 class="hero-title">
+              Building clean, futuristic interfaces
+              <span class="hero-sub">with engineering discipline.</span>
+            </h1>
+
+            <p class="hero-lead">
+              I’m Stephen Ojada — Mechanical Engineer (BSc, MSc — University of South Florida) pivoting into
+              web development. I focus on structure, consistency, and professional-grade presentation using
+              semantic HTML and modern CSS (Flexbox + Grid).
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">Explore Projects</a>
+              <a class="btn btn-ghost" href="resume.html">View Resume</a>
+            </div>
+
+            <ul class="chips" aria-label="Core strengths">
+              <li class="chip">Flexbox</li>
+              <li class="chip">CSS Grid</li>
+              <li class="chip">Semantic HTML</li>
+              <li class="chip">Accessible UI</li>
+            </ul>
+          </div>
+
+          <div class="hero-media">
+            <figure class="frame">
+              <img
+                class="frame-img"
+                src="assets/hero.jpg"
+                alt="A developer working at a desk with multiple screens"
+                loading="lazy"
+              />
+              <figcaption class="frame-cap">
+                Futuristic design system • clean structure • responsive execution
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- SIGNAL STRIP -->
+      <section class="signal" aria-label="Highlights">
+        <div class="container signal-grid">
+          <article class="signal-card">
+            <p class="signal-top">Education</p>
+            <p class="signal-big">BSc + MSc</p>
+            <p class="signal-sub">Mechanical Engineering • University of South Florida</p>
+          </article>
+
+          <article class="signal-card">
+            <p class="signal-top">Background</p>
+            <p class="signal-big">Chevron</p>
+            <p class="signal-sub">Safety Engineer • Process Engineer</p>
+          </article>
+
+          <article class="signal-card">
+            <p class="signal-top">Focus</p>
+            <p class="signal-big">UI Layout</p>
+            <p class="signal-sub">Responsive builds • Typography • Spacing rhythm</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- PROJECTS (ICONS — NO REPEATED IMAGES) -->
+      <section id="projects" class="section" aria-label="Projects">
+        <div class="container">
+          <header class="section-head">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-sub">
+              No filler. Real layout practice: responsive structure, consistency, and polish.
+            </p>
+          </header>
+
+          <div class="projects-grid">
+            <!-- 1 -->
+            <article class="project-card">
+              <div class="project-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" aria-label="">
+                  <path
+                    d="M4 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5Zm2 0v2h12V5H6Zm0 4v10h6V9H6Zm8 0v4h4V9h-4Zm0 6v4h4v-4h-4Z"
+                  />
+                </svg>
+              </div>
+              <div class="project-body">
+                <h3>Personal Portfolio Website (Capstone)</h3>
+                <p>
+                  A two-page personal website (index + resume) with futuristic styling, semantic HTML,
+                  responsive layout, and accessible structure — built with HTML/CSS only.
+                </p>
+                <ul class="tags" aria-label="Tools used">
+                  <li class="tag">HTML5</li>
+                  <li class="tag">CSS3</li>
+                  <li class="tag">Responsive</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- 2 -->
+            <article class="project-card">
+              <div class="project-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" aria-label="">
+                  <path
+                    d="M4 5a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5Zm10 0a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V5Zm-7 0H6v14h3V5Zm10 0h-2v14h2V5Z"
+                  />
+                </svg>
+              </div>
+              <div class="project-body">
+                <h3>Responsive Pricing Table (Flexbox)</h3>
+                <p>
+                  A three-tier pricing layout using Flexbox: desktop side-by-side presentation, mobile stacking,
+                  and clear hover emphasis to match real product pages.
+                </p>
+                <ul class="tags" aria-label="Tools used">
+                  <li class="tag">Flexbox</li>
+                  <li class="tag">Hover States</li>
+                  <li class="tag">Layout</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- 3 -->
+            <article class="project-card">
+              <div class="project-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" aria-label="">
+                  <path d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Zm9 0h7v7h-7v-7Z" />
+                </svg>
+              </div>
+              <div class="project-body">
+                <h3>Grid Layout Challenge (CSS Grid)</h3>
+                <p>
+                  Pixel-accurate grid recreation from a design reference, focused on alignment, spacing discipline,
+                  and predictable structure.
+                </p>
+                <ul class="tags" aria-label="Tools used">
+                  <li class="tag">CSS Grid</li>
+                  <li class="tag">Alignment</li>
+                  <li class="tag">Spacing</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- 4 -->
+            <article class="project-card">
+              <div class="project-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" aria-label="">
+                  <path
+                    d="M7 3h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm0 2v12h10V5H7Zm-2 4H4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1H5a2 2 0 0 1-2-2V9Z"
+                  />
+                </svg>
+              </div>
+              <div class="project-body">
+                <h3>Professional Profile Website (Multi-Page)</h3>
+                <p>
+                  A clean multi-page structure with consistent typography, navigation, and spacing rhythm —
+                  designed to look credible and readable.
+                </p>
+                <ul class="tags" aria-label="Tools used">
+                  <li class="tag">Multi-page</li>
+                  <li class="tag">Typography</li>
+                  <li class="tag">Structure</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- 5 -->
+            <article class="project-card">
+              <div class="project-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" aria-label="">
+                  <path
+                    d="M8.7 7.3a1 1 0 0 1 0 1.4L6.4 11l2.3 2.3a1 1 0 1 1-1.4 1.4l-3-3a1 1 0 0 1 0-1.4l3-3a1 1 0 0 1 1.4 0Zm6.6 0a1 1 0 0 1 1.4 0l3 3a1 1 0 0 1 0 1.4l-3 3a1 1 0 1 1-1.4-1.4L17.6 11l-2.3-2.3a1 1 0 0 1 0-1.4ZM14 5a1 1 0 0 1 .96 1.28l-3 12a1 1 0 0 1-1.92-.48l3-12A1 1 0 0 1 14 5Z"
+                  />
+                </svg>
+              </div>
+              <div class="project-body">
+                <h3>CSS Methods Demo (Specificity & Structure)</h3>
+                <p>
+                  Demonstrates clean CSS organization and predictable styling. Focus on typography rhythm,
+                  line-height control, and responsive readability.
+                </p>
+                <ul class="tags" aria-label="Tools used">
+                  <li class="tag">CSS Architecture</li>
+                  <li class="tag">Typography</li>
+                  <li class="tag">Responsive</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- 6 -->
+            <article class="project-card">
+              <div class="project-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" aria-label="">
+                  <path
+                    d="M7 2a1 1 0 0 1 1 1v1h8V3a1 1 0 1 1 2 0v1h1a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h1V3a1 1 0 0 1 1-1Zm13 8H4v9a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-9ZM5 6a1 1 0 0 0-1 1v1h16V7a1 1 0 0 0-1-1H5Z"
+                  />
+                </svg>
+              </div>
+              <div class="project-body">
+                <h3>Date-to-Day Converter (UI Build)</h3>
+                <p>
+                  A clean form-focused interface concept for a date input tool, emphasizing layout clarity and
+                  accessibility. (Logic planned for later versions.)
+                </p>
+                <ul class="tags" aria-label="Tools used">
+                  <li class="tag">Forms</li>
+                  <li class="tag">UI</li>
+                  <li class="tag">Accessibility</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="section-cta">
+            <a class="btn btn-ghost" href="resume.html">Open Resume →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section section-alt" aria-label="About">
+        <div class="container split">
+          <div class="split-copy">
+            <header class="section-head">
+              <h2 class="section-title">About</h2>
+              <p class="section-sub">Engineering foundation. Web development execution.</p>
+            </header>
+
+            <p>
+              I hold both a BSc and an MSc in Mechanical Engineering from the University of South Florida (Tampa, FL).
+              I’ve worked in high-standard environments as a Safety Engineer and Process Engineer at Chevron Nigeria Limited —
+              where clarity, process discipline, and structured thinking matter.
+            </p>
+
+            <p>
+              I’m now pivoting into web development, applying the same mindset to building layouts that are clean, responsive,
+              and professional. My focus is mastering fundamentals: semantic HTML, modern CSS, Flexbox, and Grid.
+            </p>
+
+            <div class="feature-grid" aria-label="Strengths">
+              <div class="feature">
+                <h3>Systems thinking</h3>
+                <p>Structured logic, consistent execution, and disciplined delivery.</p>
+              </div>
+              <div class="feature">
+                <h3>Layout fundamentals</h3>
+                <p>Responsive UI, spacing rhythm, and scalable styling.</p>
+              </div>
+              <div class="feature">
+                <h3>Professional polish</h3>
+                <p>Readable design, clean sections, and credibility-first presentation.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="split-media">
+            <figure class="frame">
+              <img
+                class="frame-img"
+                src="assets/about.jpg"
+                alt="A developer seen from the side/back while working at a desk"
+                loading="lazy"
+              />
+              <figcaption class="frame-cap">
+                Focused on fundamentals — then scale.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section" aria-label="Contact">
+        <div class="container split split-rev">
+          <div class="split-copy">
+            <header class="section-head">
+              <h2 class="section-title">Contact</h2>
+              <p class="section-sub">Straight to business. Reach me here:</p>
+            </header>
+
+            <div class="contact-grid" role="list">
+              <a class="contact-card" role="listitem" href="mailto:remote.stephen11@gmail.com">
+                <p class="contact-k">Email</p>
+                <p class="contact-v">remote.stephen11@gmail.com</p>
+              </a>
+
+              <a
+                class="contact-card"
+                role="listitem"
+                href="https://github.com/remotestephen11"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p class="contact-k">GitHub</p>
+                <p class="contact-v">github.com/remotestephen11</p>
+              </a>
+
+              <div class="contact-card muted-card" role="listitem">
+                <p class="contact-k">LinkedIn</p>
+                <p class="contact-v">Coming soon</p>
+              </div>
+            </div>
+
+            <p class="note">
+              When you create LinkedIn, keep the headline aligned with “Web Developer • HTML/CSS • Responsive UI”.
+            </p>
+          </div>
+
+          <div class="split-media">
+            <figure class="frame">
+              <img
+                class="frame-img"
+                src="assets/contact.jpg"
+                alt="Notebook on a desk with a get-in-touch theme"
+                loading="lazy"
+              />
+              <figcaption class="frame-cap">
+                Open to entry-level roles and portfolio collaborations.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Footer">
+      <div class="container footer-inner">
+        <p class="foot-left">© 2026 Stephen Ojada</p>
+        <p class="foot-right">Built with HTML + CSS only</p>
+      </div>
+    </footer>
+  </body>
+</html>
